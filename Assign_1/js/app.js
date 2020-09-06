@@ -1,6 +1,6 @@
 (
     function () {
-        'use strict'
+        'use strict';
         angular.module('firstApp', [])
             .controller('firstAppController', ctrl);
         ctrl.$inject = ['$scope', '$sce'];
